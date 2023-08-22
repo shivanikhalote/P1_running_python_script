@@ -9,3 +9,8 @@ print(type(name))
 pi = "3.14"
 pi = float(pi)
 print(type(pi))
+
+b1 = True
+b2 = False
+print("b1 is a {} {}".format(b1,type(b1)))
+print("b2 is a {} {}".format(b2,type(b1)))
