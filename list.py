@@ -13,3 +13,7 @@ print('appended list = {}'.format(cities))
 cities.insert(3,"Shrinagar")
 print('inserted value in a list  = {}'.format(cities))
 
+# deleting element from list
+
+cities.pop()
+print('list after pop operation  = {}'.format(cities))
