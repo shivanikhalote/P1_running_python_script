@@ -17,3 +17,12 @@ print('inserted value in a list  = {}'.format(cities))
 
 cities.pop()
 print('list after pop operation  = {}'.format(cities))
+
+# printing the values of list using for loop
+print('List of cities')
+for city in cities:
+    print(city)
+countries =["USA","South Korea","India","Japan"]
+print('List of countries')
+for country in countries:
+    print(country)
